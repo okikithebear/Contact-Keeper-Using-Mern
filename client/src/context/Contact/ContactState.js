@@ -59,7 +59,7 @@ const ContactState = props => {
     const {state, dispatch} = useReducer(contactReducer, initialState);
     return (
         <ContactContext.Provider
-          value={ {contacts: state.contacts}}
+          value={ { state: state, dispatch }}
         >
           {props.children}
         </ContactContext.Provider>
