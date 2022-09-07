@@ -31,7 +31,7 @@ const contactContext = useContext(ContactContext);
       <input type='text' placeholder='Name' name='name' value={name} onChange={onChange}/>
       <input
         type='email'
-        placeholder='Email'
+         placeholder='Email'
         name='email'
         value={email}
         onChange={onChange}
